@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright © 2016 Shawn Baker using the MIT License. -->
+
+
+<FrameLayout
+
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/video"
+    android:keepScreenOn="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+    <!--
+        <RelativeLayout
+            android:id="@+id/video1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="250dp"
+
+            ></RelativeLayout>
+
+         RelativeLayout
+            android:id="@+id/video2"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="400dp"
+
+            ></RelativeLayout   -->
+
+
+    <com.google.vr.sdk.base.GvrView
+        android:id="@+id/gvr_view"
+        android:layout_height="match_parent"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+
+        ></com.google.vr.sdk.base.GvrView>
+
+    <com.google.vr.sdk.base.GvrView
+        android:id="@+id/gvr_view2"
+        android:layout_height="match_parent"
+        android:layout_width="300dp"
+        android:layout_marginLeft="390dp"
+
+        >
+
+    </com.google.vr.sdk.base.GvrView>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset "
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="310dp"
+        />
+
+
+
+
+
+</FrameLayout>
+
+
+
