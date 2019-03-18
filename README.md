@@ -1,6 +1,13 @@
+# VR Controlled Gimbal 
+In software part this project includes one android application(RPi camera Viewer) and a python file(Raspberry_code.py) for rpi to controll two servos  
+
+
+
+
+
 # RPi Camera Viewer
 
-This program plays the raw H.264 video from a Raspberry Pi.
+This app plays the raw H.264 video from a Raspberry Pi.
 
 
 # Introduction
